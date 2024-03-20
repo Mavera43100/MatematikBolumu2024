@@ -35,7 +35,6 @@ namespace hafta4_veriturleri
             int carpim = sayi1 * sayi2;  // int veri tipi tam sayılar için kullanılır
             float bolme =  (sayi1 / (float)sayi2); //double veri tipi ondalıklı veriler için kullanılır
 
-
             Console.WriteLine("ilk bolme sonucu : "+sayi1/sayi2);
             Console.WriteLine("ilk bolme sonucu {0}: ",sayi1 / sayi2);
 
@@ -52,10 +51,9 @@ namespace hafta4_veriturleri
             //tam sayılar bolme işleminden sonra ondalık kısmı atılır. Bunu engellemek için tamsayı değişkenlerden bir tanesini ondalıklı veri tipine dönüştürürüz. Yani değişkenin başına parantez içinde double, float yada decimal yazarız.
             bolme = (sayi1 / (float)sayi2);
             Console.WriteLine("Bölme Sonucu : {0} / {1} = {2} ", sayi1, sayi2, bolme);
+            
 
-
-
-
+         
 
 
 
