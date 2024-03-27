@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hafta4_veriturleri", "hafta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta5", "Hafta5\Hafta5.csproj", "{ADFAEE52-F24E-417B-9252-089EC0F60D36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hafta6_kararYapilari", "hafta6_kararYapilari\hafta6_kararYapilari.csproj", "{2EF2EDBD-D541-4227-8AA9-AED18472CD52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ADFAEE52-F24E-417B-9252-089EC0F60D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADFAEE52-F24E-417B-9252-089EC0F60D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADFAEE52-F24E-417B-9252-089EC0F60D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF2EDBD-D541-4227-8AA9-AED18472CD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF2EDBD-D541-4227-8AA9-AED18472CD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF2EDBD-D541-4227-8AA9-AED18472CD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF2EDBD-D541-4227-8AA9-AED18472CD52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -92,13 +93,17 @@ namespace Hafta5
             sonuc = sonuc / 10; //aşağıdaki satırın ayınısı
             sonuc /= 10;  //yukarıdaki satırın kısa yazılışı
 
-            double kalan = 100;
+            double kalan = 10;
             kalan = kalan % 3f;
-            kalan %= 3f; 
 
+            kalan %= 3f;
 
-            //mantıksal değişken türü=  bool
-            // karar yapıları (if else ) 
+            Console.OutputEncoding = Encoding.UTF8;
+
+            decimal[] tutarlar = { 16305.32m, 18794.16m };
+            Console.WriteLine("{0,-28}{1,-20}", "Bütçe Başlangıç Tutarı", "Bütçe Bitiş Tutarı");
+            Console.WriteLine("{0,-28:C2}{1,-20:C2}", tutarlar[0], tutarlar[1]);
+
 
         }
     }
